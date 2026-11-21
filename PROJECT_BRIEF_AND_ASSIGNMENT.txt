@@ -1,0 +1,52 @@
+PROJECT 01 — RETAIL SALES & PROFITABILITY ANALYSIS
+Synthetic practice dataset | India | 2025 | 10,018 rows supplied (10,000 generated rows + 18 duplicate records)
+
+BUSINESS SCENARIO
+You are a Junior Data Analyst supporting a multi-category retailer. Management wants to understand sales, profitability, product performance, regional performance and customer behaviour.
+
+BUSINESS QUESTIONS
+1. What are total net sales, recorded cost and recorded profit?
+2. Which categories and products contribute most to sales and profit?
+3. Which regions and cities perform best and worst?
+4. How do sales and profit trend month by month?
+5. Which channels and customer segments contribute most?
+6. Which products have high sales but weak profit margins?
+7. What data-quality issues could affect management reporting?
+8. What actions would you recommend?
+
+DATA QUALITY ISSUES INTENTIONALLY INCLUDED
+- 18 exact duplicate rows.
+- Missing values in selected fields.
+- Inconsistent text case and extra spaces.
+- Some invalid city labels.
+- Zero and negative quantities.
+- Discount percentages above 100%.
+- A few dates stored as text.
+- Returned orders have negative sales and profit; cancelled orders have zero sales and profit.
+This is synthetic data, not actual company data. Do not assume every negative value is an error. Investigate business meaning before changing anything.
+
+ASSIGNMENT 1 — DATA UNDERSTANDING & QUALITY AUDIT
+Do not build a dashboard or calculate final KPIs yet.
+
+1. Save a working copy of the workbook. Keep the original Raw_Data unchanged.
+2. Inspect Raw_Data and record:
+   a. Number of rows and columns.
+   b. What one row appears to represent.
+   c. Which columns are identifiers, dates, categories and numeric measures.
+   d. Which columns may support sales, profit, customer and operations analysis.
+3. Create a worksheet named Data_Quality_Audit with columns:
+   Issue_ID | Column_Name | Observed_Issue | Possible_Business_Impact | Proposed_Action
+4. Identify at least six distinct data-quality issues by finding examples in the actual rows. Do not merely copy this brief.
+5. Write short answers:
+   - Are duplicate Order_ID values necessarily duplicate transactions?
+   - Should returned orders be removed or analysed separately?
+   - What should happen to missing Customer_Name values when Customer_ID is available?
+   - Why investigate invalid Quantity and Discount_Percent before calculating KPIs?
+
+SUBMIT FOR MENTOR REVIEW
+Send:
+1. Your row and column count.
+2. A screenshot of Data_Quality_Audit.
+3. Your answers to the four business-judgement questions.
+
+I will review your audit before we proceed to Power Query cleaning.
