@@ -85,16 +85,55 @@ Records requiring further business validation were not automatically modified or
 
 ## 8. Business Insights & Recommendations
 
-The analysis is designed to help answer questions such as:
+The analysis of 10,000 simulated retail transactions for 2025 revealed the following findings:
 
-- Which regions contribute most to sales and profit?
-- Which products and categories perform best?
-- Which sales channels generate stronger results?
-- Are discounts associated with changes in profitability?
-- How do returned and cancelled orders affect reported performance?
+### Key Performance Indicators
 
-Final recommendations should be based on the validated results in the workbook.
+| KPI | Result |
+|---|---:|
+| Total Net Sales | ₹12,94,18,137.09 |
+| Total Profit | ₹1,94,23,556.66 |
+| Profit Margin | 15.01% |
+| Total Transactions | 10,000 |
+| Average Order Value | ₹12,941.81 |
 
+### Key Business Insights
+
+**1. Regional Performance**
+- North recorded the highest net sales at ₹2.87 crore and the highest profit at ₹42.77 lakh.
+- Central ranked second in net sales at ₹2.71 crore.
+- South recorded the lowest regional net sales at ₹2.42 crore.
+
+**2. Sales Channel Performance**
+- Online was the leading sales channel, contributing 41.79% of total net sales.
+- Retail Stores contributed 29.88%, followed by Marketplace at 20.74%.
+- Phone Orders contributed 7.60%.
+
+**3. Product Category Performance**
+- Electronics generated 65.65% of total net sales, making it the largest category.
+- Furniture contributed 20.49% of net sales.
+- Clothing recorded the highest category profit margin at 30.03%, while Electronics recorded the lowest at 12.46%.
+
+**4. Monthly Sales Trend**
+- September recorded the highest monthly net sales at approximately ₹1.37 crore.
+- January recorded the lowest monthly net sales at approximately ₹89.57 lakh.
+
+**5. Order Status Analysis**
+- Delivered transactions: 5,869
+- Returned transactions: 2,022
+- Cancelled transactions: 2,109
+
+Returned and cancelled transactions require separate monitoring because they affect reported sales and operational performance differently.
+
+### Business Recommendations
+
+- Review regional strategies in South to identify opportunities to improve sales performance.
+- Strengthen the online channel while monitoring profitability and operating costs.
+- Investigate the cost structure and pricing strategy of Electronics to improve its profit margin.
+- Explore opportunities to expand Clothing sales while monitoring its current profitability.
+- Investigate the reasons behind returned and cancelled transactions to identify potential improvements in fulfilment and customer experience.
+
+*Note: These findings are based on a synthetic practice dataset and are intended for portfolio demonstration, not as actual business performance claims.*
 ## 9. Learning Outcomes
 
 Through this project, I practised:
